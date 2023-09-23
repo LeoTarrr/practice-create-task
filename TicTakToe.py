@@ -31,6 +31,39 @@ def PlayGame(numrounds):
         print(board[3],board[4],board[5])
         print(board[6],board[7],board[8])    
 
+        if board[0] and board[1] and board[2] == "X":
+            print(" X wins!! ")
+        elif board[3] and board[4] and board[5] == "X":
+            print(" X wins!! ")
+        elif board[6] and board[7] and board[8] == "X":
+            print(" X wins!! ")
+        elif board[0] and board[4] and board[8] == "X":
+            print(" X wins!! ")
+        elif board[2] and board[4] and board[6] == "X":
+            print(" X wins!! ")
+        elif board[0] and board[3] and board[6] == "X":
+            print(" X wins!! ")
+        elif board[1] and board[4] and board[7] == "X":
+            print(" X wins!! ")
+        elif board[2] and board[5] and board[8] == "X":
+            print(" X wins!! ")
+        elif board[0] and board[1] and board[2] == "O":
+            print(" O wins!! ")
+        elif board[3] and board[4] and board[5] == "O":
+            print(" O wins!! ")
+        elif board[6] and board[7] and board[8] == "O":
+            print(" O wins!! ")
+        elif board[0] and board[4] and board[8] == "O":
+            print(" O wins!! ")
+        elif board[2] and board[4] and board[6] == "O":
+            print(" O wins!! ")
+        elif board[0] and board[3] and board[6] == "O":
+            print(" O wins!! ")
+        elif board[1] and board[4] and board[7] == "O":
+            print(" O wins!! ")
+        elif board[2] and board[5] and board[8] == "O":
+            print(" O wins!! ")            
 
 PlayGame(3)
 PlayGame(5)
+
