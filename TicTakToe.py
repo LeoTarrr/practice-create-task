@@ -1,3 +1,4 @@
+#The program is meant to create a game of Tic Tac Toe, using a function to display the board and create the players inputs onto the board. The If statements are checked to see whether any of the 8 different win conditions are met.
 board  = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 print(" Welcome to Tic Tac Toe! ")
